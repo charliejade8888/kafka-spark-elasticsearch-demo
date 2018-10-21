@@ -1,0 +1,6 @@
+version: '2'
+services:
+  head:
+    image: marlic/elasticsearch-head
+    ports:
+      - "9100:80"
